@@ -19,7 +19,7 @@
 
 
 # setup
-export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/usr/local/cuda/lib:$LD_LIBRARY_PATH
 cd `pwd`/`dirname $0`
 . sh2ju.sh
 ## clean last build log

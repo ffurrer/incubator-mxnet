@@ -39,8 +39,8 @@ SCRIPT=$5
 if [ -d “/usr/local/lib/“ ]; then
   chown -R ${USER_NAME}:${GROUP_NAME} /usr/local/lib/
 fi
-if [ -d “/usr/local/lib64/“ ]; then
-  chown -R ${USER_NAME}:${GROUP_NAME} /usr/local/lib64/
+if [ -d “/usr/local/lib/“ ]; then
+  chown -R ${USER_NAME}:${GROUP_NAME} /usr/local/lib/
 fi
 if [ -d “/usr/local/bin/“ ]; then
   chown -R ${USER_NAME}:${GROUP_NAME} /usr/local/bin/

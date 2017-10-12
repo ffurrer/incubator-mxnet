@@ -54,7 +54,7 @@ TIFF_VERSION=3.8.2
 OPENCV_VERSION=2.4.13
 
 # Setup path to dependencies
-export PKG_CONFIG_PATH=$DEPS_PATH/lib/pkgconfig:$DEPS_PATH/lib64/pkgconfig:$PKG_CONFIG_PATH
+export PKG_CONFIG_PATH=$DEPS_PATH/lib/pkgconfig:$DEPS_PATH/lib/pkgconfig:$PKG_CONFIG_PATH
 export CPATH=$DEPS_PATH/include:$CPATH
 
 # Position Independent code must be turned on for statically linking .a

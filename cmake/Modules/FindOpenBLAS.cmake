@@ -39,12 +39,9 @@ SET(Open_BLAS_INCLUDE_SEARCH_PATHS
 SET(Open_BLAS_LIB_SEARCH_PATHS
         /lib/
         /lib/openblas-base
-        /lib64/
         /usr/lib
         /usr/lib/openblas-base
-        /usr/lib64
         /usr/local/lib
-        /usr/local/lib64
         /opt/OpenBLAS/lib
         /usr/local/opt/openblas/lib
         ${PROJECT_SOURCE_DIR}/3rdparty/OpenBLAS/lib
@@ -91,4 +88,3 @@ MARK_AS_ADVANCED(
     OpenBLAS_LIB
     OpenBLAS
 )
-

@@ -19,7 +19,7 @@
 
 
 # setup
-export LD_LIBRARY_PATH=`pwd`/`dirname $0`/lib:/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=`pwd`/`dirname $0`/lib:/usr/local/cuda/lib:$LD_LIBRARY_PATH
 export PYTHONPATH=`pwd`/`dirname $0`/python
 # bc is required by sh2ju.sh
 apt-get install bc
